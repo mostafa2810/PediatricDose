@@ -390,14 +390,6 @@ class InputPageState extends State<InputPage> {
                       resultText2: calc.actifedSyrupMaxResult(),
                     );
                   } else if (widget.selected ==
-                      'Domperidone Suspension consentration(5mg/1ml)\nTarget Dose(Below 35kg):0.25-0.5mg/kg/TID\nTarget Dose(Over 35kg):10-20 mg/kg/TID\nMax Dose:2.4mg/kg/every 24h') {
-                    return ResultsPage(
-                      bmiResult: calc.domporidoneSuspensionMin(),
-                      resultText: calc.domporidoneSuspensionMinResult(),
-                      bmiResult2: calc.domporidoneSuspensionMax(),
-                      resultText2: calc.domporidoneSuspensionMaxResult(),
-                    );
-                  } else if (widget.selected ==
                       'Promethazine HCI consentration(5mg/5ml)\nTarget Dose(2years-5years):5ml/BD\nTarget Dose(5years-10years):5-10ml/BD\nTarget Dose(10years-18years):10-20ml/BD') {
                     return ResultsPage(
                       bmiResult: calc.promethazineMin(),
