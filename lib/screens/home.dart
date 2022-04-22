@@ -25,8 +25,8 @@ class _MakeDashboardItemsState extends State<MakeDashboardItems> {
                 index == 12 ||
                 index == 15 ||
                 index == 16 ||
-                index == 19 ||
-                index == 20
+                index == 19 
+               
             ? BoxDecoration(
                 borderRadius: BorderRadius.circular(5),
                 gradient: const LinearGradient(
@@ -221,18 +221,8 @@ class _MakeDashboardItemsState extends State<MakeDashboardItems> {
                 ),
               );
             }
+           
             if (index == 14) {
-              //6.item
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (context) => InputPage(
-                    selected: 'Domperidone Suspension consentration(5mg/1ml)\nTarget Dose(Below 35kg):0.25-0.5mg/kg/TID\nTarget Dose(Over 35kg):10-20 mg/kg/TID\nMax Dose:2.4mg/kg/every 24h',
-                  ),
-                ),
-              );
-            }
-            if (index == 15) {
               //6.item
               Navigator.push(
                 context,
@@ -244,7 +234,7 @@ class _MakeDashboardItemsState extends State<MakeDashboardItems> {
                 ),
               );
             }
-            if (index == 16) {
+            if (index == 15) {
               //6.item
               Navigator.push(
                 context,
@@ -255,7 +245,7 @@ class _MakeDashboardItemsState extends State<MakeDashboardItems> {
                 ),
               );
             }
-            if (index == 17) {
+            if (index == 16) {
               //6.item
               Navigator.push(
                 context,
@@ -266,7 +256,7 @@ class _MakeDashboardItemsState extends State<MakeDashboardItems> {
                 ),
               );
             }
-            if (index == 18) {
+            if (index == 17) {
               //6.item
               Navigator.push(
                 context,
@@ -277,7 +267,7 @@ class _MakeDashboardItemsState extends State<MakeDashboardItems> {
                 ),
               );
             }
-            if (index == 19) {
+            if (index == 18) {
               //6.item
               Navigator.push(
                 context,
@@ -288,7 +278,7 @@ class _MakeDashboardItemsState extends State<MakeDashboardItems> {
                 ),
               );
             }
-            if (index == 20) {
+            if (index == 19) {
               //6.item
               Navigator.push(
                 context,
@@ -387,17 +377,16 @@ class _MakeDashboardItemsState extends State<MakeDashboardItems> {
                 makeDashboardItem("Chlorpheniramine\n       Maleate",
                     "assets/images/p.png", 12),
                 makeDashboardItem("Actifed Syrup", "assets/images/p.png", 13),
+                
+                makeDashboardItem("Promethazine HCI", "assets/images/p.png", 14),
+                makeDashboardItem("Lactulose", "assets/images/p.png", 15),
+                makeDashboardItem("Nystatin", "assets/images/p.png", 16),
                 makeDashboardItem(
-                    "Domperidone\n Suspension", "assets/images/p.png", 14),
-                makeDashboardItem("Promethazine HCI", "assets/images/p.png", 15),
-                makeDashboardItem("Lactulose", "assets/images/p.png", 16),
-                makeDashboardItem("Nystatin", "assets/images/p.png", 17),
+                    "Ferrous Sulphate Drops", "assets/images/p.png", 17),
                 makeDashboardItem(
-                    "Ferrous Sulphate Drops", "assets/images/p.png", 18),
+                    "Multivitamin Syrup", "assets/images/p.png", 18),
                 makeDashboardItem(
-                    "Multivitamin Syrup", "assets/images/p.png", 19),
-                makeDashboardItem(
-                    "Albendazole Suspension", "assets/images/p.png", 20),
+                    "Albendazole Suspension", "assets/images/p.png", 19),
               ],
             ),
           ),
