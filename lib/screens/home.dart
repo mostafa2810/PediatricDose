@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pediatric_dose/screens/webView.dart';
 
 
 import 'input_page.dart';
@@ -289,6 +290,15 @@ class _MakeDashboardItemsState extends State<MakeDashboardItems> {
                 ),
               );
             }
+                if (index == 666) {
+              //6.item
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => Resources(),
+                ),
+              );
+            }
           },
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -359,6 +369,7 @@ class _MakeDashboardItemsState extends State<MakeDashboardItems> {
               crossAxisCount: 2,
               padding: const EdgeInsets.all(2),
               children: [
+                makeDashboardItem("resources link", "assets/images/p.png", 666),
                 makeDashboardItem("Amoxicillin", "assets/images/p.png", 0),
                 makeDashboardItem("Augmentin", "assets/images/p.png", 1),
                 makeDashboardItem("Azithromycin", "assets/images/p.png", 2),
